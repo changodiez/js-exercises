@@ -5,8 +5,22 @@
   Update the code so that you get the expected result.
 */
 
-function isNegative() {}
+function isNegative(valor) {
 
+  if (valor<0){return true}  else {return false}
+  }
+  
+function isBetween5and10(valor){
+  if (valor>=5 && valor<=10){return true}
+}
+
+function isShortName(valor){
+  if (valor.length < 7){return true}
+}
+
+function startsWithD(valor){
+  if (valor.indexOf("D")=== 0){return true} else {return false}
+}
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */

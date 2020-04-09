@@ -6,6 +6,8 @@
 */
 
 function isEmpty(arr) {
+  if(typeof arr != "undefined" && arr != null && arr.length > 0){return false}else {return true};
+
   return; // complete this statement
 }
 
@@ -17,6 +19,7 @@ var names = [];
 
 console.log(isEmpty(numbers));
 console.log(isEmpty(names));
+
 
 /* 
   EXPECTED RESULT
