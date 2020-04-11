@@ -3,8 +3,8 @@
 // What was wrong with the original code?
 // Leave comments above your changes to explain
 
-var isHappy = "false";
-
+var isHappy = false;
+// I just take away the  "", converting the string to a boolean. 
 if (isHappy == true) {
   console.log("I am happy");
 } else {

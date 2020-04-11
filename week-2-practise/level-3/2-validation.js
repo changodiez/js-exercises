@@ -6,7 +6,10 @@
 
 var excludedNums = [6, 14, 91, 111];
 
-function validate(num) {}
+function validate(num) {
+  var included = excludedNums.includes(num);
+if (typeof num === "number" && Number.isInteger(num) && included === false){return true}else {return false};
+}
 
 console.log(validate(6));
 console.log(validate(10.5));
