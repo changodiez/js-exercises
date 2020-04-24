@@ -3,9 +3,14 @@
 */
 
 var students = ["Omar", "Austine", "Dany", "Swathi", "Lesley", "Rukmini"];
-var group = ["Austine", "Dany", "Swathi", "Daniel"];
+var group = ["Austine", "Dany", "Swathi"];
 
-var groupIsOnlyStudents; // complete this statement
+for (i=0; i<students.length; i++){
+  var groupIsOnlyStudents = students.includes(group[i]);
+}
+
+ // complete this statement
+
 
 if (groupIsOnlyStudents) {
   console.log("The group contains only students");
